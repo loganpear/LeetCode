@@ -19,6 +19,7 @@ FROM ( -- Subquery to find the first login date
 
 -- Inner Join to join only first login dates 
 JOIN Activity a2 ON a1.player_id = a2.player_id
+  
 -- Only show instances WHERE the player logged in the day after their first day
 WHERE DATEDIFF(a2.event_date, a1.start_date) = 1;
 
