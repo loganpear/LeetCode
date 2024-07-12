@@ -12,6 +12,7 @@ SELECT
 
 FROM Sales
 
+-- Only shows results WHERE the product_id's year = the first year (which would be the MIN(year))
 WHERE (product_id, year) IN (
     SELECT product_id, MIN(year)
     FROM Sales
