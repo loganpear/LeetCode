@@ -1,27 +1,30 @@
 """
-This SQL query calculates the fraction of players who logged in again on the day after their first login, 
-rounded to 2 decimal places. It achieves this by first identifying each player's first login date using a 
-subquery. It then joins this information with the Activity table to find instances where a player logged 
+OVERVIEW: In this SQL query I calculate the fraction of players who logged in again on the day after their 
+first login. I first identify each player's first login date using a subquery. 
+It then joins this information with the Activity table to find instances where a player logged 
 in on consecutive days. The final result is the count of players meeting this criterion divided by the
 total number of distinct players in the Activity table.
 """
   
 SELECT
     ROUND(COUNT(a1.player_id) / (SELECT COUNT(DISTINCT player_id) FROM Activity),2) AS fraction
-  
-FROM (
+
+FROM ( -- Subquery to find the first login date
     SELECT 
         player_id, 
         MIN(event_date) AS start_date 
     FROM Activity 
     GROUP BY player_id
 ) AS a1
-  
+
+-- Inner Join to join only first login dates 
 JOIN Activity a2 ON a1.player_id = a2.player_id
-  
+-- Only show instances WHERE the player logged in the day after their first day
 WHERE DATEDIFF(a2.event_date, a1.start_date) = 1;
 
 /* DIRECTIONS 
+
+Table: Activity
 +--------------+---------+
 | Column Name  | Type    |
 +--------------+---------+
