@@ -1,4 +1,4 @@
-# LeetCode SQL Solutions Repository
+# LeetCode SQL Highlights
 
 This repository contains my solutions to various SQL problems from LeetCode. Each solution is written in SQL and is designed to efficiently solve the respective problem.
 
