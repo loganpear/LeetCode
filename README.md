@@ -1,6 +1,6 @@
 # LeetCode SQL Highlights
 
-This repository contains my solutions to various SQL problems from LeetCode. Each solution is written in SQL and is designed to efficiently solve the respective problem.
+This repository contains my solutions to various SQL problems from LeetCode. Each solution is written in SQL and is designed to efficiently solve the respective problem. The purpose of this repository is to provide a collection of SQL solutions for future reference and to showcase my SQL abilities.
 
 ## SQL Skills Covered
 
