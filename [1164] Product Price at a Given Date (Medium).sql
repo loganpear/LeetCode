@@ -1,5 +1,11 @@
 """
-OVERVIEW: In this SQL query, I determine the prices of all products as of 2019-08-16 by using a Common Table Expression (CTE) and a UNION operation. The query first creates a CTE called pre_max_date to identify the latest date before or on 2019-08-16 for each product. This is achieved by selecting the maximum change date for each product that is on or before the specified date. The main query then selects the product IDs and their corresponding prices from the products table where the change date matches the date in the CTE. Finally, the UNION operation ensures that products without any prior specified price are assigned a default price of 10. The resulting output consists of all product IDs along with their respective prices as of 2019-08-16.
+OVERVIEW: In this SQL query, I determine the prices of all products as of 2019-08-16 by using a Common Table Expression (CTE)
+and a UNION operation. I first create a CTE called pre_max_date to identify the latest date before or on 2019-08-16
+for each product. This is achieved by selecting the maximum change date for each product that is on or before the specified
+date. The main query then selects the product IDs and their corresponding prices from the products table where the change
+date matches the date in the CTE. Finally, the UNION operation ensures that products without any prior specified price are
+assigned a default price of 10. The resulting output consists of all product IDs along with their respective prices
+as of 2019-08-16.
 """
 -- CTE for only the latest date before or at 2019-08-16 for each product_id
 WITH pre_max_date AS 
