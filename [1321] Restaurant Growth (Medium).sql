@@ -1,6 +1,12 @@
 """
-OVERVIEW: 
+OVERVIEW: In this SQL query, I calculate the moving average of the total amount spent by customers
+in a seven-day window, including the current day and the six preceding days. I first create a CTE 
+to sum the total amount for each individual date. It then cross joins this CTE on itself to calculate
+the moving average by summing amounts over the specified period. The final result filters out any
+records that do not have at least seven days of data, ensuring the moving average is calculated 
+only for complete periods.
 """
+    
 -- This CTE is the total amount of each individual date
 with sum_cte as(
     select 
