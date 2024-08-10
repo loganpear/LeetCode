@@ -17,5 +17,5 @@ The solutions in this repository cover a variety of SQL skills, including but no
 - **Date and Time Functions**
 - **Window Functions**: RANK, DENSE_RANK, ROW_NUMBER, NTILE, LEAD, LAG
 - **Case Statements and Conditional Logic**: CASE WHEN, IF
-- **Data Manipulation**: INSERT, UPDATE, DELETE
+
 
