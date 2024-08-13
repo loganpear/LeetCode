@@ -17,7 +17,7 @@ WITH pre_max_date AS
     WHERE change_date <= '2019-08-16'
     GROUP BY product_id
 )
--- Selects records from the product table where the reocod is on the latest date before or at 2019-08-16   
+-- Selects records from the product table where the record is on the latest date before or at 2019-08-16   
 SELECT 
     p.product_id,  
     p.new_price AS price
