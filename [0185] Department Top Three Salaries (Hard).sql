@@ -1,5 +1,5 @@
 """
-OVERVIEW: OVERVIEW: In this SQL query, I identify the top three unique salary earners in each department.
+OVERVIEW: In this SQL query, I identify the top three unique salary earners in each department.
 I first create a CTE to rank the salaries within each department using the `DENSE_RANK()` function. 
 It then selects the department, employee, and salary information from this CTE, filtering the results 
 to include only those with a rank of 1, 2, or 3. The final result lists the highest earners 
