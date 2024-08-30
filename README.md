@@ -20,3 +20,4 @@ The solutions in this repository cover a variety of SQL skills, including but no
 
 ## Highlights
 - **[1321] Restaurant Growth:** I use a Common Table Expression (CTE) to calculate the moving average of customer spending.
+- **[0185] Department Top Three Salaries:** I use DENSE_RANK to identify high earning employees in each department. 
