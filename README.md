@@ -18,4 +18,5 @@ The solutions in this repository cover a variety of SQL skills, including but no
 - **Window Functions**: RANK, DENSE_RANK, ROW_NUMBER, NTILE, LEAD, LAG
 - **Case Statements and Conditional Logic**: CASE WHEN, IF
 
-
+## Highlights
+- **[1321] Restaurant Growth:** I use a Common Table Expression (CTE) to calculate the moving average of customer spending.
