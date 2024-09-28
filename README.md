@@ -12,10 +12,10 @@ The solutions in this repository cover a variety of SQL skills, including but no
 - **Grouping and Filtering**: GROUP BY, HAVING
 - **Sorting and Limiting Results**: ORDER BY, LIMIT
 - **Subqueries and Nested Queries**
-- **Set Operations**: UNION, INTERSECT, EXCEPT
+- **Set Operations**: UNION
 - **String Functions**: CONCAT, SUBSTRING, LENGTH
 - **Date and Time Functions**
-- **Window Functions**: RANK, DENSE_RANK, ROW_NUMBER, NTILE, LEAD, LAG
+- **Window Functions**: RANK, DENSE_RANK, ROW_NUMBER, LEAD, LAG
 - **Case Statements and Conditional Logic**: CASE WHEN, IF
 
 ## Highlights
