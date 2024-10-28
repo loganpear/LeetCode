@@ -1,22 +1,38 @@
-# SQL LeetCode 
+# SQL LeetCode
 
-This repository contains my solutions to various SQL problems from LeetCode. Each solution is written in SQL and is designed to efficiently solve the respective problem. The purpose of this repository is to provide a collection of SQL solutions for future reference and to showcase my SQL abilities.
+This repository showcases my SQL skills through solutions to various LeetCode problems. Each solution is crafted for efficiency and serves as a personal reference, as well as a resource for others looking to learn SQL techniques.
 
 ## SQL Skills Covered
 
-The solutions in this repository cover a variety of SQL skills, including but not limited to:
+The solutions in this repository cover a wide range of SQL skills, including:
 
-- **Basic SQL Queries**: SELECT, WHERE, DISTINCT
-- **Advanced SQL Queries**: JOIN (INNER, LEFT, RIGHT, FULL), UNION, INTERSECT
-- **Aggregate Functions**: COUNT, SUM, AVG, MIN, MAX
-- **Grouping and Filtering**: GROUP BY, HAVING
-- **Sorting and Limiting Results**: ORDER BY, LIMIT
-- **Subqueries and Nested Queries**
-- **Set Operations**: UNION
-- **String Functions**: CONCAT, SUBSTRING, LENGTH
+- **Basic Queries and Filtering**:  
+  - `SELECT`, `WHERE`, `DISTINCT`
+
+- **Joining and Set Operations**:  
+  - `JOIN`s (`INNER`, `LEFT`, `RIGHT`, `FULL`), `UNION`, `INTERSECT`
+
+- **Aggregation and Grouping**:  
+  - Aggregate Functions: `COUNT`, `SUM`, `AVG`, `MIN`, `MAX`  
+  - `GROUP BY`, `HAVING`
+
+- **Sorting and Limiting Results**:  
+  - `ORDER BY`, `LIMIT`, `OFFSET`
+
+- **String Functions**:  
+  - `CONCAT`, `SUBSTRING`, `LENGTH`
+
 - **Date and Time Functions**
-- **Window Functions**: RANK, DENSE_RANK, ROW_NUMBER, LEAD, LAG
-- **Case Statements and Conditional Logic**: CASE WHEN, IF
+  - `DATE_ADD`, `DATEDIFF`
+    
+- **Window Functions**:  
+  - `RANK`, `DENSE_RANK`, `ROW_NUMBER`, `LEAD`, `LAG`
+
+- **Conditional Logic**:  
+  - `CASE WHEN`, `IF`
+
+- **Subqueries and Nested Queries**
+  
 
 ## Highlights
 - **[1321] Restaurant Growth:** I use a Common Table Expression (CTE) to calculate the moving average of customer spending.
