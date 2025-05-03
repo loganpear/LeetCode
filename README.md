@@ -1,6 +1,6 @@
-# SQL LeetCode
+# LeetCode Coding Practice
 
-This repository showcases my SQL skills through solutions to various LeetCode problems. Each solution is crafted for efficiency and serves as a personal reference, as well as a resource for others looking to learn SQL techniques.
+
 
 ## SQL Skills Covered
 
