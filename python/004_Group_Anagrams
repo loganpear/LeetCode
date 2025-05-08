@@ -1,0 +1,21 @@
+Initial solution
+
+class Solution:
+    def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
+        dic = {}
+        for s in strs:
+            chars = sorted(list(s))
+            sorted_s = ""
+            for ch in chars:
+                sorted_s += ch
+            if sorted_s in dic:
+                dic[sorted_s].append(s)
+            else:
+                dic[sorted_s] = [s]
+
+        print(dic)
+
+        output = []
+        for val in dic.values():
+            output.append(val)
+        return output
