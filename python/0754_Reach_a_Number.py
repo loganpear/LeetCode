@@ -1,5 +1,6 @@
 class Solution:
     def reachNumber(self, target: int) -> int:
+        target = abs(target)
         total = 0
         incriment = 0
         diff = 0 # initial val doesnt really matter
